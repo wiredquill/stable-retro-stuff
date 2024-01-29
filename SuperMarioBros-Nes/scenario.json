@@ -14,9 +14,9 @@
     }
   },
   "reward": {
-    "script": "lua:test_reward"
+    "script": "lua:mario_reward"
   },
   "scripts": [
-    "test.lua"
+    "mario.lua"
   ]
 }
