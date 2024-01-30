@@ -5,7 +5,7 @@ prev_score = 0
 prev_coins = 0
 prev_jump = 0
 
-function reward(data)
+function reward()
     -- Calculate current location
     local current_location = (data.xscrollHi * 100 + data.xscrollLo)
     local velocity = current_location - prev_location
